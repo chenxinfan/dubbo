@@ -31,6 +31,9 @@ public class Application {
         System.in.read();
     }
 
+    /**
+     * asdasd
+     */
     @Configuration
     @EnableDubbo(scanBasePackages = "org.apache.dubbo.demo.provider")
     @PropertySource("classpath:/spring/dubbo-provider.properties")
